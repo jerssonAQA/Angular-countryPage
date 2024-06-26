@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomePageComponent } from './shared/pages/home-page/home-page.component';
 import { AboutPageComponent } from './shared/pages/aboutPage/aboutPage.component';
 
+
 const routes:Routes=[{
   path:'home',
   component: HomePageComponent
@@ -15,7 +16,7 @@ const routes:Routes=[{
 }
 ];
 
-@NgModule({
+@NgModule ({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
